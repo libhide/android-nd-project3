@@ -1,0 +1,56 @@
+<resources>
+    <!--App Name-->
+    <string name="app_name">Stock Hawk</string>
+
+    <!--Menu Item-->
+    <string name="action_change_units">Change Units</string>
+
+    <!--Search Dialog-->
+    <string name="symbol_search">Enter a symbol</string>
+    <string name="content_test">Search for a Stock Symbol</string>
+    <string name="input_hint" translatable="false">GOOG</string>
+    <string name="input_prefill" translatable="false">""</string>
+    <string name="widget_title">Today\'s Market</string>
+    <string name="input_is_empty">You did not input a stock. Try again!</string>
+
+    <!--Placeholder-->
+    <string name="placeholder_goog" translatable="false">GOOG</string>
+    <string name="placeholder_value" translatable="false">1000.00</string>
+    <string name="placeholder_percentage" translatable="false">100%</string>
+    <string name="placeholder_date">Current Date</string>
+
+    <!--ContentDescription-->
+    <string name="desc_no_internet_icon">No network connection icon</string>
+    <string name="desc_line_chart">Line chart of the past seven days</string>
+    <string name="point_date">"Date "</string>
+    <string name="point_price">"Bidprice "</string>
+    <string name="point_up">"Up "</string>
+    <string name="point_down">"Down "</string>
+    <string name="point_which_is">" which is "</string>
+
+    <!--Toasts-->
+    <string name="network_msg">Please connect to the Internet to get the latest stock information!</string>
+    <string name="network_toast">Uh-oh! This app requires an internet connection!</string>
+    <string name="already_saved_toast">This stock is already saved!</string>
+    <string name="valid_toast">" added!"</string>
+    <string name="invalid_toast">" is not a valid stock!"</string>
+
+    <!--Keys-->
+    <string name="key_tag" translatable="false">tag</string>
+    <string name="key_symbol" translatable="false">symbol</string>
+    <string name="tag_periodic" translatable="false">periodic</string>
+
+    <!--Values-->
+    <string name="value_init" translatable="false">init</string>
+    <string name="value_add" translatable="false">add</string>
+
+    <!--Widget-->
+    <string name="empty_quote_list">No Quote Information Available</string>
+
+    <!--IntentService-->
+    <string name="service_url_encode" translatable="false">UTF-8</string>
+    <string name="service_url_base" translatable="false">"https://query.yahooapis.com/v1/public/yql?q="</string>
+    <string name="service_url_select" translatable="false">"select * from yahoo.finance.quotes where symbol in ("</string>
+    <string name="service_url_init_symbols" translatable="false">"\"YHOO\",\"AAPL\",\"GOOG\",\"MSFT\")"</string>
+    <string name="service_url_append" translatable="false">"&#038;format=json&#038;diagnostics=true&#038;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&#038;callback="</string>
+</resources>
